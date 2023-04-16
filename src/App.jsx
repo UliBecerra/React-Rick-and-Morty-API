@@ -40,7 +40,7 @@ function App() {
       <div className=" h-[600px] bg-[url('/public/bg/bg-header.png')] desktop:h-screen">
         
         
-        <img className="absolute p-3 mt-8 left-[50%] -translate-x-[50%] desktop:left-[15%]"  src="public/bg/title.png" alt="" />
+        <img className="absolute p-3 mt-8 left-[50%] -translate-x-[50%] desktop:left-[15%]"  src={title} alt="" />
         
       
       <form onSubmit={handleSubmit} className=" w-full pt-[340px] flex-col justify-center px-[5%] desktop:pt-[70px] ">
@@ -60,7 +60,7 @@ function App() {
       </form>
       </div>
 <div className="  left-0 right-0 min-h-screen min-w-full bg-[url('/public/bg/bg-body.png')] bg-body bg-center bg-repeat-y pt-24 pb-24 
- desktop:bg-none desktop:absolute  desktop:min-h-0 desktop:min-w-0 desktop:overflow-y-scroll desktop:h-[400px] desktop:w-[600px] desktop:top-[30%]  desktop:pt-0 desktop:pb-0 desktop:m-auto">
+ desktop:bg-none desktop:absolute  desktop:min-h-0 desktop:min-w-0 desktop:overflow-y-scroll desktop:h-[50vh] desktop:w-[600px] desktop:top-[28%]  desktop:pt-0 desktop:pb-0 desktop:m-auto">
       
       
       <ResidentList  location={location} />
