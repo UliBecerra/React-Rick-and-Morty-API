@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App font-fira-code ">
-      <img className="absolute -top-[150px] p-4  animate-spin-slow left-0 right-0   m-auto max-h-[400px] desktop:animate-none desktop:h-[150px] desktop:w-[700px] desktop:top-[20%]" src="public/bg/portal.png" alt="" />
+      <img className="absolute -top-[150px] p-4  animate-spin-slow left-0 right-0   m-auto max-h-[400px] desktop:animate-none desktop:h-[150px] desktop:w-[700px] desktop:top-[20%]" src={require('public/bg/portal.png')} alt="" />
         <img className="absolute -top-[150px] p-4  animate-spin-slow left-0 right-0   m-auto max-h-[400px] desktop:animate-none desktop:h-[150px] desktop:w-[700px] desktop:top-[75%]" src="public/bg/portal.png" alt="" />
       <div className=" h-[600px] bg-[url('public/bg/bg-header.png')] desktop:h-screen">
         

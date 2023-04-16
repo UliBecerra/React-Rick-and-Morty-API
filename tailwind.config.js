@@ -19,7 +19,10 @@ export default {
       'center': 'center'
     },
     extend: {
-      
+      backgroundImage: {
+        'portal': "url('public/bg/portal.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
       animation: {
         'spin-slow': 'spin 15s linear infinite',
       },
