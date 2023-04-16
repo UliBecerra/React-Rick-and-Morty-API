@@ -20,8 +20,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'portal': "url('public/bg/portal.png')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'header': "url(/public/bg/bg-header.png)",
+        'body': "url('/public/bg/bg-header.png')",
       },
       animation: {
         'spin-slow': 'spin 15s linear infinite',
