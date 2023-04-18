@@ -19,7 +19,7 @@ function ResidentCard({ resident }) {
   }, []);
 
   return (
-    <article className="border border-[#8EFF8B] text-white desktop:flex desktop:w-[100%] desktop:m-auto desktop:text-[#0E3D0D] desktop:bg-[#ffffff]/80" >
+    <article className="border  border-[#8EFF8B] text-white desktop:flex desktop:w-[100%] desktop:m-auto desktop:text-[#0E3D0D] desktop:bg-[#ffffff]/80 " >
       <div className="relative ">
         <img className="w-full h-full" src={residentInfo?.image} alt="" />
         <div className="absolute bottom-4  left-1/2 -translate-x-1/2 bg-[#020A02]/60  p-1 px-2 flex gap-2 items-center rounded-sm ">
@@ -27,7 +27,7 @@ function ResidentCard({ resident }) {
          <span>{ residentInfo?.status}</span>
         </div>
       </div>
-      <section className="w-full h-full flex-col justify-center  items-center  p-5">
+      <section className="w-full max-h-full flex-col justify-center  items-center  p-5">
         
         <h3 className="block text-[32px] font-[700] pt-3 desktop:text-center desktop:border-b-2 desktop:border-[#084851]  ">{residentInfo?.name}</h3>
        

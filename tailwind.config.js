@@ -13,7 +13,7 @@ export default {
       'fira-code': ['Fira Code', 'sans-serif'],
     },
     backgroundSize: {
-      'body': '100% 120vh'  ,
+      'bodyP': '100% 120vh'  ,
       'cover': 'cover',
       'contain': 'contain',
       'center': 'center'
