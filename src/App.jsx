@@ -57,7 +57,7 @@ function App() {
       <img className="absolute -top-[150px] p-4  animate-spin-slow left-0 right-0   m-auto max-h-[400px] desktop:hidden " src={portal} alt="" />
       {(location?.residents.length > 0) ? (
         <>
-        <img className="absolute -top-[150px] p-4  animate-spin-slow left-0 right-0   m-auto max-h-[400px] desktop:animate-pulse desktop:h-[150px] desktop:w-[700px] desktop:top-[20%]" src={portal} alt="" />
+        <img className="absolute -top-[150px] p-4  animate-spin-slow left-0 right-0   m-auto max-h-[400px] desktop:animate-pulse desktop:h-[150px] desktop:w-[700px] desktop:top-[20%] " src={portal} alt="" />
         <img className="absolute -top-[150px] p-4  animate-spin-slow left-0 right-0   m-auto max-h-[400px] desktop:animate-pulse desktop:h-[150px] desktop:w-[700px] desktop:top-[75%]" src={portal} alt="" />
         </>
       ) : <img className="hidden desktop:inline-block absolute  p-4  animate-spin-slow top-0 bottom-0 left-0 right-0   m-auto h-[65vh] " src={portal} alt="" />
@@ -74,7 +74,7 @@ function App() {
       </div>
       
          <div className={`left-0 right-0 min-h-screen min-w-full  bg-[url('/public/bg/bg-body.png')] bg-bodyP  bg-repeat-y pt-24 desktop:pb-48 -translate-y-[1px]
-        desktop:bg-none desktop:absolute ${location?.residents <= 0 && 'desktop:hidden'}  desktop:min-h-0 desktop:min-w-0 desktop:overflow-y-scroll desktop:h-[50vh] desktop:w-[600px] desktop:top-[28%]  desktop:pt-0 desktop:pb-0 desktop:m-auto`}>
+        desktop:bg-none desktop:absolute ${location?.residents <= 0 && 'desktop:hidden'}  desktop:min-h-0 desktop:min-w-0 desktop:overflow-y-scroll desktop:h-[55vh] desktop:w-[600px] desktop:top-[28%]  desktop:pt-0 desktop:pb-0 desktop:m-auto`}>
              
              <ResidentList  location={location} startCut={startCut} endCut={endCut} setCurrentPage={setCurrentPage} arrayPages={arrayPages} currentPage={currentPage}/>
              </div>
