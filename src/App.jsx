@@ -53,8 +53,8 @@ function App() {
   }, []);
 
   return (
-    <div className="App font-fira-code  ">
-      <img className="absolute -top-[150px] p-4  animate-spin-slow left-0 right-0   m-auto max-h-[400px] desktop:hidden" src={portal} alt="" />
+    <div className="App font-fira-code relative overflow-hidden  ">
+      <img className="absolute -top-[150px] p-4  animate-spin-slow left-0 right-0   m-auto max-h-[400px] desktop:hidden " src={portal} alt="" />
       {(location?.residents.length > 0) ? (
         <>
         <img className="absolute -top-[150px] p-4  animate-spin-slow left-0 right-0   m-auto max-h-[400px] desktop:animate-pulse desktop:h-[150px] desktop:w-[700px] desktop:top-[20%]" src={portal} alt="" />
